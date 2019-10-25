@@ -1,1 +1,37 @@
-<mxfile host="www.draw.io" modified="2019-10-25T07:20:10.655Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" version="12.1.5" etag="7xYRUxbQmId_W-kK4m7x" type="github"><diagram id="DH3it3e67prMZ3DfMsh5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-10-25T08:44:03.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="lAvhmhCoUtv57UYac9wh" version="12.1.5" type="github" pages="1">
+  <diagram id="DH3it3e67prMZ3DfMsh5" name="Page-1">
+    <mxGraphModel dx="1024" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="iOC1PimkSnYiWcTjw7fJ-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="iOC1PimkSnYiWcTjw7fJ-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iOC1PimkSnYiWcTjw7fJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="130" as="sourcePoint"/>
+            <mxPoint x="360" y="100" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iOC1PimkSnYiWcTjw7fJ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iOC1PimkSnYiWcTjw7fJ-4" target="iOC1PimkSnYiWcTjw7fJ-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="iOC1PimkSnYiWcTjw7fJ-4" value="第一次编译：&lt;br&gt;根据节点类型，属性中的指令名称执行对应的函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="250" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="iOC1PimkSnYiWcTjw7fJ-9" value="更新dom节点，new一个Watcher，触发getter&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="340" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="iOC1PimkSnYiWcTjw7fJ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iOC1PimkSnYiWcTjw7fJ-11" target="iOC1PimkSnYiWcTjw7fJ-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="iOC1PimkSnYiWcTjw7fJ-11" value="数据响应化：&lt;br&gt;defineReactive，对每一个属性添加一个依赖收集器dep。getter中依赖收集，setter中通知订阅者&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="120" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="iOC1PimkSnYiWcTjw7fJ-14" value="为什么要进行依赖收集？因为一个发布者可能有多个订阅者，即&lt;br&gt;一个属性更新可能有多处改动" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="350" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
