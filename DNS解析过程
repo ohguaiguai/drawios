@@ -1,1 +1,137 @@
-<mxfile host="www.draw.io" modified="2019-12-04T07:37:17.274Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" version="12.3.6" etag="i1mIwyE5LgeLI9cC4QYX" type="github" pages="1"><diagram id="1Au2Zm6bqubQZJ_1m5aF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-04T08:09:29.714Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="C-_Qld_ih9eVLMIL0L3A" version="12.3.6" type="github" pages="1">
+  <diagram id="1Au2Zm6bqubQZJ_1m5aF" name="Page-1">
+    <mxGraphModel dx="2235" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-1" value="本地域名服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-2" value="根域名服务器 &lt;br&gt;." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="35" width="90" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-3" value="顶级域名服务器 &lt;br&gt;.com." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="35" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-4" value="分级域名服务器&lt;br&gt;google.com." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="35" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-5" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="560" as="sourcePoint"/>
+            <mxPoint x="160" y="40" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-6" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.5" y="560" as="sourcePoint"/>
+            <mxPoint x="379.5" y="40" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-7" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="624.5" y="560" as="sourcePoint"/>
+            <mxPoint x="624.5" y="40" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xe-CvjtRIH2ezqhGytRE-8" target="xe-CvjtRIH2ezqhGytRE-12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-8" value="查询www.google.com的IP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-155" y="170" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xe-CvjtRIH2ezqhGytRE-12" target="xe-CvjtRIH2ezqhGytRE-14">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="xe-CvjtRIH2ezqhGytRE-12" target="xe-CvjtRIH2ezqhGytRE-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="310" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="80" y="405"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-55" value="返回IP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xe-CvjtRIH2ezqhGytRE-40">
+          <mxGeometry x="-0.2966" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-12" value="查询www.google.com的IP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="170" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xe-CvjtRIH2ezqhGytRE-14" target="xe-CvjtRIH2ezqhGytRE-16">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="xe-CvjtRIH2ezqhGytRE-14" target="xe-CvjtRIH2ezqhGytRE-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="310" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="280" y="405"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-56" value="返回IP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xe-CvjtRIH2ezqhGytRE-47">
+          <mxGeometry x="-0.5837" y="2" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-14" value="查询www.google.com的IP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="170" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xe-CvjtRIH2ezqhGytRE-16" target="xe-CvjtRIH2ezqhGytRE-18">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="xe-CvjtRIH2ezqhGytRE-16" target="xe-CvjtRIH2ezqhGytRE-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="310" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="520" y="405"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-57" value="返回IP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xe-CvjtRIH2ezqhGytRE-49">
+          <mxGeometry x="-0.7205" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-16" value="查询www.google.com的IP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="170" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="xe-CvjtRIH2ezqhGytRE-18" target="xe-CvjtRIH2ezqhGytRE-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="310" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="750" y="405"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-58" value="返回IP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xe-CvjtRIH2ezqhGytRE-51">
+          <mxGeometry x="-0.7896" y="1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-18" value="查询www.google.com的IP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="170" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-9" value="浏览器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="40" width="50" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-10" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1" y="560" as="sourcePoint"/>
+            <mxPoint x="-1" y="40" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-24" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="85" as="sourcePoint"/>
+            <mxPoint x="820" y="80" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xe-CvjtRIH2ezqhGytRE-36" value="存入缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-155" y="360" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
