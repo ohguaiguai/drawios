@@ -1,1 +1,35 @@
-<mxfile host="www.draw.io" modified="2019-12-25T07:47:54.638Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" version="12.4.3" etag="CXTzrPYYXS_W9A9lZUbo" type="github"><diagram id="1Ix1JAc0flTS9mdOzUFt">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-25T09:19:43.552Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="TeMnMh1nUmFQ94SK3BVT" version="12.4.3" type="github" pages="1">
+  <diagram id="1Ix1JAc0flTS9mdOzUFt" name="Page-1">
+    <mxGraphModel dx="1408" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="ArdwN1bXE1_n2TU460Ha-3" value="new" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ArdwN1bXE1_n2TU460Ha-1" target="ArdwN1bXE1_n2TU460Ha-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="250"/>
+              <mxPoint x="280" y="250"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArdwN1bXE1_n2TU460Ha-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ArdwN1bXE1_n2TU460Ha-1" target="ArdwN1bXE1_n2TU460Ha-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ArdwN1bXE1_n2TU460Ha-1" value="构造函数Parent" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="ArdwN1bXE1_n2TU460Ha-6" value="原型对象&lt;br&gt;Parent.prototype" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="ArdwN1bXE1_n2TU460Ha-9" value="__proto__" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ArdwN1bXE1_n2TU460Ha-2" target="ArdwN1bXE1_n2TU460Ha-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="170" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArdwN1bXE1_n2TU460Ha-2" value="实例对象parent" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="130" width="80" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
